@@ -1,6 +1,7 @@
-import 'package:chat_ui/models/message_model.dart';
-import 'package:chat_ui/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../models/models.dart';
+import '../screens/chat_screen.dart';
 
 class RecentChats extends StatelessWidget {
   const RecentChats({Key? key}) : super(key: key);
